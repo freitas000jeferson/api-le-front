@@ -7,6 +7,7 @@ module.exports = {
   },
   env: {
     browser: true,
+    node: true
   },
   // https://github.com/vuejs/eslint-plugin-vue#priority-a-essential-error-prevention
   // consider switching to `plugin:vue/strongly-recommended` or `plugin:vue/recommended` for stricter rules.
@@ -30,6 +31,10 @@ module.exports = {
       js: 'never',
       vue: 'never'
     }],
+    "linebreak-style": 0,
+    "global-require ": 0,
+    "eslint linebreak-style ": [0,"error ","windows"],
+    'indent': 'off',
     // disallow reassignment of function parameters
     // disallow parameter object manipulation except for specific exclusions
     'no-param-reassign': ['error', {
